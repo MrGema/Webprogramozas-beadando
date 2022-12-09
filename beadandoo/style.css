@@ -1,4 +1,16 @@
-main{
-    background: rgb(190,41,194);
-    background: linear-gradient(0deg, rgba(190,41,194,1) 35%, rgba(0,249,255,1) 100%);
+#jobb{
+    background-color: red;
+    height: 100vh;
+}
+
+#bal {
+    background-color: grey;
+    height: 100vh;
+}
+
+@media screen {
+    
+}
+#fopizza img {
+    margin-top: 20px;
 }
