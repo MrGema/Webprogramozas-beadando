@@ -1,0 +1,7 @@
+otlet
+
+1. main
+2. checkout
+3. profil (ikon jobb fent) -> adatok
+4. navbar -> pizzak
+5. navbar -> drinkek 

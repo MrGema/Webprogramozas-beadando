@@ -31,3 +31,14 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
 }
+
+.navbar{
+    height: 75px !important;
+}
+
+.navbar a{ font-size: 25px; color: black;}
+
+.mainfelirat{
+    font-weight: bolder;
+    text-decoration: none;
+}
