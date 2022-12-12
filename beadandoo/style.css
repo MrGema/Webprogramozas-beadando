@@ -1,9 +1,35 @@
-main{
-    background: rgb(190,41,194);
-    background: linear-gradient(0deg, rgba(190,41,194,1) 35%, rgba(0,249,255,1) 100%);
+body {
+    overflow: hidden;
 }
-body{
 
+#jobb{
+    background-color: black;
+    height: 100vh;
+}
+
+#fopizza {
+    padding: 0;
+}
+
+#pizzavid {
+    width: 95vw;
+    height: 100vh;
+    object-fit: cover;
+    margin-left: 0px;
+}
+
+#bal {
+    background-color: black;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/223/726/large_2x/horizontal-black-stone-texture-for-pattern-and-background-free-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#bal{
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
 }
 
 .navbar{
