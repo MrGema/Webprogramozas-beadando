@@ -45,32 +45,46 @@
           </nav>
     </header>
 
-    <h1>Információk</h1>
-    <aside>
-        <img src="profil logo.png">
-    </aside>
 <main>
-    <div class="container-fluid">
-        <div class="input-group row">
-            <label for="nev" class="input-group-text col-sm-4">Teljes név:</label>
-            <input type="text" id="nev" class="form-contorol col-sm-8" name="nev" title="add meg a neved"></input>
-        </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-6 col-lg-9">
+        <h1>Információk</h1>
         <br>
-        <div class="input-group row">
-             <label for="Lakcím" class="input-group-text col-sm-4">Lakcím:</label>
-            <input type="text" id="Lakcím" class="form-contorol col-sm-8" name="Lakcím" title="add meg a lakcímed"></input>
+          <div class="container-fluid" id="bal">
+              <div class="input-group row w-50">
+                  <label for="nev" class="input-group-text col-sm-4">Teljes név:</label>
+                  <input type="text" id="nev" class="form-contorol col-sm-8" name="nev" title="add meg a neved"></input>
+              </div>
+              <br>
+              <div class="input-group row w-50">
+                <label for="email" class="input-group-text col-sm-4">Email:</label>
+                <input type="email" id="tel" class="form-contorol col-sm-8" name="email" title="add meg az email címed" placeholder="pelda@pelada.com"></input>
+              </div>
+              <br>
+              <div class="input-group row w-50">
+                  <label for="irsz" class="input-group-text col-sm-4">Irányítószám:</label>
+                  <input type="number" id="irsz" class="form-contorol col-sm-8" name="irsz" title="add meg az Irányítószámodat"></input>
+              </div>
+              <br>
+              <div class="input-group row w-50">
+                  <label for="Lakcím" class="input-group-text col-sm-4">Utca, házszám:</label>
+                  <input type="text" id="Lakcím" class="form-contorol col-sm-8" name="Lakcím" title="add meg az utcádat és a házszámodaz" placeholder="Ady Endre utca 30"></input>
+              </div>
+              <br>
+              <div class="input-group row w-50">
+                  <label for="tel" class="input-group-text col-sm-4">Telefonszám:</label>
+                  <input type="text" id="tel" class="form-contorol col-sm-8" name="tel" title="add meg a teledonszámod" placeholder="+36 xx xxx xxxx"></input>
+              </div>
+              <br>
+          </div>
         </div>
-        <br>
-        <div class="input-group row">
-            <label for="tel" class="input-group-text col-sm-4">Telefonszám:</label>
-            <input type="text" id="tel" class="form-contorol col-sm-8" name="tel" title="add meg a teledonszámod"></input>
+        <div class="col-sm-6 col-lg-3" id="kep">
+          <img src="profil logo.png">
         </div>
-        <br>
-        <div class="input-group row">
-            <label for="email" class="input-group-text col-sm-4">Email:</label>
-            <input type="email" id="tel" class="form-contorol col-sm-8" name="email" title="add meg az email címed"></input>
-        </div>
+      </div>
     </div>
 </main>
+
 </body>
 </html>
