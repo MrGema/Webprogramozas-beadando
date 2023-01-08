@@ -2,7 +2,7 @@
 
 body{
     background: var(--hatter);
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 
@@ -62,3 +62,15 @@ h1{
 #menu a{
     text-align: center;
 }
+
+a[target="_blank"]:visited {
+    color: blueviolet;
+}
+
+@media print {
+    body{
+      column-count: 2;
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+    }
+  }

@@ -1,0 +1,84 @@
+@import "constant.css";
+
+body {
+    background: var(--hatter);
+    overflow-x: hidden;
+}
+
+.navbar{
+    height: 75px !important;
+}
+
+.navbar a{ font-size: 25px; color: black;}
+
+.mainfelirat{
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+#jobb {
+    background-color: black;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/223/726/large_2x/horizontal-black-stone-texture-for-pattern-and-background-free-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+}
+th, td {
+    border: 0;
+}
+table {
+    text-align: center;
+    table-layout: fixed;
+    width: 100%;
+}
+
+#jobb{
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+#jobb img{
+    width: 350px;
+    height: 300px;
+}
+
+th {
+    font-size: xx-large;
+}
+
+td img{
+    padding: 5px;
+    width: 350px;
+    height: 300px;
+    box-shadow: 5px 5px 5px 3px black;
+}
+
+a[target="_blank"]:visited {
+    color: blueviolet;
+}
+
+@media print {
+    body{
+      column-count: 2;
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+    }
+    footer{
+        display: none;
+    }
+  }
+
+@media screen and (max-width: 1440px){
+    td img{
+        width: 300px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 1260px){
+    td img{
+        width: 120px;
+        height: 100px;
+    }
+}

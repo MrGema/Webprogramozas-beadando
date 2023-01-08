@@ -1,5 +1,5 @@
 body {
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 #jobb{
@@ -42,3 +42,15 @@ body {
     font-weight: bolder;
     text-decoration: none;
 }
+
+a[target="_blank"]:visited {
+    color: blueviolet;
+}
+
+@media print {
+    body{
+      column-count: 2;
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+    }
+  }
