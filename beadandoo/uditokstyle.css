@@ -3,39 +3,15 @@ body{
     background: linear-gradient(339deg, rgba(233,228,30,1) 0%, rgba(247,244,104,1) 35%, rgba(156,15,15,1) 100%);
 }
 
-#kep img{
-    width: 300px;
-    height: 300px;
-}
-
-input{
-    border: 1px solid gray;
-    box-shadow: 5px;
-}
-
-h1{
-    text-align: center;
-}
-
-.input-group-text{
-    background-color: white !important;
-    border: 0;
-}
-input:focus::placeholder{
-    color:transparent;
-}
-
 
 .navbar{
     height: 75px !important;
 }
 
-.navbar a{ font-size: 25px; color: black;}
-
-.mainfelirat{
-    font-weight: bolder;
-    text-decoration: none;
+.navbar a{
+     font-size: 25px; color: black;
 }
+
 
 #kep{
     background-color: black;
@@ -45,11 +21,38 @@ input:focus::placeholder{
     height:100vh;
     display: flex;
     justify-content: center;
+    float: right;
 }
 
-#bal{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.mainfelirat{
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+#menu{
+    background-image: url('menubackgrond.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}   
+
+#menu p{
+    text-align: center;
+    color: bisque;
+    font-size: 30px;
+}
+
+#menu p:hover{
+    font-size: 35px;
+    color: gold;
+}
+
+#kep img{
+    width: 350px;
+    height: 300px;
 }
