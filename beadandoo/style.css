@@ -1,5 +1,5 @@
-body {
-    overflow: hidden;
+body{
+    overflow-x: hidden;
 }
 
 #jobb{
@@ -16,6 +16,7 @@ body {
     height: 100vh;
     object-fit: cover;
     margin-left: 0px;
+    margin-right: 0px;
 }
 
 #bal {
