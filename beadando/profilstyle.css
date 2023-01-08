@@ -1,6 +1,8 @@
+@import "constant.css";
+
 body{
-    background: rgb(233,228,30);
-    background: linear-gradient(339deg, rgba(233,228,30,1) 0%, rgba(247,244,104,1) 35%, rgba(156,15,15,1) 100%);
+    background: var(--hatter);
+    overflow: hidden;
 }
 
 #kep img{
@@ -10,7 +12,6 @@ body{
 
 input{
     border: 1px solid gray;
-    box-shadow: 5px;
 }
 
 h1{

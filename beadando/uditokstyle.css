@@ -1,6 +1,7 @@
+@import "constant.css";
+
 body{
-    background: rgb(233,228,30);
-    background: linear-gradient(339deg, rgba(233,228,30,1) 0%, rgba(247,244,104,1) 35%, rgba(156,15,15,1) 100%);
+    background: var(--hatter);
     overflow: hidden;
 }
 
@@ -44,16 +45,20 @@ h1{
 
 #menu p{
     text-align: center;
-    color: bisque;
+    color: var(--p);
     font-size: 30px;
 }
 
 #menu p:hover{
     font-size: 35px;
-    color: gold;
+    color: var(--hover);
 }
 
 #kep img{
     width: 350px;
     height: 300px;
+}
+
+#menu a{
+    text-align: center;
 }
