@@ -1,0 +1,56 @@
+@import "constant.css";
+
+body{
+    background: var(--hatter);
+    overflow: hidden;
+}
+
+#kep img{
+    width: 300px;
+    height: 300px;
+}
+
+input{
+    border: 1px solid gray;
+}
+
+h1{
+    text-align: center;
+}
+
+.input-group-text{
+    background-color: white !important;
+    border: 0;
+}
+input:focus::placeholder{
+    color:transparent;
+}
+
+
+.navbar{
+    height: 75px !important;
+}
+
+.navbar a{ font-size: 25px; color: black;}
+
+.mainfelirat{
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+#kep{
+    background-color: black;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/223/726/large_2x/horizontal-black-stone-texture-for-pattern-and-background-free-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+}
+
+#bal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
