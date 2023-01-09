@@ -53,22 +53,27 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-6 col-lg-9" id="menu">
-                    <h1><i>Pizzák</i></h1>
-                        <p>Margarita</p>
-                        <p>Húsimádó</p>
-                        <p>Sonka-kukorica</p>
-                        <p>Magyaros</p>
-                        <p>Baconös</p>
-                        <h1><i>Ház ajánlata</i></h1>
-                        <p>ínyenc</p>
-                        <p>Baconos-gyroshúsos</p>
-                        <p>Három kívánság</p>
-                        <p>BBQ</p>
-                        <p><a href="https://hu.wikipedia.org/wiki/Pizza" target="_blank">Pizzák története</a></p>
+                  <h1><i>Pizzák</i></h1>
+                    <ul style="list-style-type:none;">
+                      <li>Margarita</li>
+                      <li>Húsimádó</li>
+                      <li>Sonka-kukorica</li>
+                      <li>Magyaros</li>
+                      <li>Baconös</li>
+                      <li class="felirat">Ház ajánlata</li>
+                      <li>ínyenc</li>
+                      <li>Baconos-gyroshúsos</li>
+                      <li>Három kívánság</li>
+                      <li>BBQ</li>
+                    <li><a href="https://hu.wikipedia.org/wiki/Pizza" target="_blank">Pizzák története</a></li>
+                  </ul>
                 </div>
                 <div class="col-sm-6 col-lg-3" id="kep">
-                    <img src="pizzakep.png" alt="pizza">
+                    <img usemap="#kiskep" src="pizzakep.png" alt="pizza">
                 </div>
+                <map name="kiskep">
+                  <area target="_blank" shape="rect" coords="0, 0, 490, 490" alt="pizza" href="pizzakep.png">
+                </map>
             </div>
         </div>
     </main>

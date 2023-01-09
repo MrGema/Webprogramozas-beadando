@@ -28,6 +28,7 @@ input:focus::placeholder{
 
 .navbar{
     height: 75px !important;
+    z-index: 1000;
 }
 
 .navbar a{ font-size: 25px; color: black;}
@@ -55,7 +56,7 @@ input:focus::placeholder{
 }
 
 a[target="_blank"]:visited {
-    color: blueviolet;
+    color: var(--link);
 }
 
 @media print {
